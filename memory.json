@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Can you help me with a research query?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Please provide your research query."
+    },
+    {
+      "role": "user",
+      "content": "I'm interested in the impact of climate change on agriculture."
+    }
+  ]
+}
+

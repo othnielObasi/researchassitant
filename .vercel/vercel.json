@@ -1,0 +1,24 @@
+{
+  "name": "academic-research-assistant",
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/research.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/research",
+      "dest": "api/research.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/index.html"
+    }
+  ],
+  "env": {
+    "openaiApiKey": "your_openai_api_key",
+    "serpapiKey": "your_serpapi_api_key"
+  }
+}

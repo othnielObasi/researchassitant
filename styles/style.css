@@ -1,0 +1,65 @@
+/* Reset default margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define styles for the chat container */
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Define styles for the chat header */
+.chat-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Define styles for chat messages */
+.chat-messages {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Define styles for the chat input */
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style the user input field */
+#user-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style the send button */
+#send-button {
+    margin-left: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Responsive styles for screens narrower than 400px */
+@media screen and (max-width: 400px) {
+    .chat-container {
+        max-width: 100%;
+    }
+}
